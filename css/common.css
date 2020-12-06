@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex
+}
+
+.menu li {
+    text-align: center;
+    flex-grow: 1;
+    border-right: 1px solid lightblue;
+    border-bottom: 1px solid lightblue;
+}
+
+.menu li:hover {
+    background: rgba(0,0,0,0.5);
+}
+
+.menu li a {
+    display: block;
+    padding: 20px 25px;
+    color: blue;
+    text-decoration: none;
+}
+
+h1 {
+    color: brown;
+    margin-left: 0.5em;
+}
+
+iframe {
+    margin-left: 18%;
+}
+
+footer {
+    text-align: right;
+    color: red;
+    padding: 40px;
+}
+
+table {
+    padding: 23px;
+}
